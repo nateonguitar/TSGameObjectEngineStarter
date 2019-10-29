@@ -1,0 +1,27 @@
+{
+  "name": "game-object-engine-starter",
+  "version": "1.0.0",
+  "description": "Clone-able starter project for game-object-engine npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc & webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nateonguitar/TSGameObjectEngineStarter.git"
+  },
+  "author": "nate brooks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nateonguitar/TSGameObjectEngineStarter/issues"
+  },
+  "homepage": "https://github.com/nateonguitar/TSGameObjectEngineStarter#readme",
+  "dependencies": {
+    "game-object-engine": "^1.0.5",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
